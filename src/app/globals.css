@@ -1,0 +1,26 @@
+@import "../packages/@ui-kit/styles/index.css";
+@import "../styles/app.css";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Open Sans", sans-serif;
+  background: #eff3fb;
+}
+
+body {
+  color: #1e1e1ebf;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.shadow-card {
+  box-shadow: 0px 0px 8px 0px #1e1e1e20;
+}
