@@ -8,11 +8,14 @@
 
 :root {
   font-family: "Open Sans", sans-serif;
-  background: #eff3fb;
+  background: #010101;
 }
 
 body {
   color: #1e1e1ebf;
+  /* background-image: url("../assets/images/vote_image.png");
+  background-size: cover; */
+
 }
 
 @layer utilities {

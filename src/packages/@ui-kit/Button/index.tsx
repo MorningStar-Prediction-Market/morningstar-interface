@@ -34,7 +34,7 @@ const Button: React.FC<ButtonProps> = (props) => {
   } = props;
 
   const defaultCSS =
-    "inline-flex duration-200 h-9 w-fit text-sm gap-2 font-bold cursor-pointer items-center justify-center whitespace-nowrap rounded-md border border-line px-4 py-2 text-sm ring-offset-background disabled:pointer-events-none disabled:opacity-50 active:scale-90";
+    "inline-flex duration-200 h-9 w-fit text-sm gap-2 font-bold cursor-pointer items-center justify-center whitespace-nowrap rounded-md border border-line px-4 py-2 text-sm ring-offset-card_bg disabled:pointer-events-none disabled:opacity-50 active:scale-90";
 
   const loadingCSS = "bg-white text-black";
 
@@ -42,7 +42,7 @@ const Button: React.FC<ButtonProps> = (props) => {
     switch (variant) {
       case "primary": {
         const variantPrimaryCSS =
-          "bg-primary !border-none text-background text-white hover:bg-primary/80";
+          "bg-primary !border-none text-card_bg text-white hover:bg-primary/80";
         return variantPrimaryCSS;
       }
 
@@ -52,7 +52,8 @@ const Button: React.FC<ButtonProps> = (props) => {
       }
 
       case "ghost": {
-        const variantGhostCSS = "bg-transparent border-none hover:text-primary hover:bg-hover/5";
+        const variantGhostCSS =
+          "bg-transparent border-none hover:text-primary hover:bg-hover/5";
         return variantGhostCSS;
       }
 

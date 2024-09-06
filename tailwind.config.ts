@@ -10,12 +10,19 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#0C099C",
-        secondary: "#FF881A",
-        background: "#EFF3FB",
-        text: "#000",
+        primary: "#FFE37F",
+        secondary: "#FE6921",
+        background: "#010101",
+        card_bg: "#FFFFFF26",
+        dark_brown: "#4F1B02",
+        header: "#04040480",
+        text: "#FFFFFF",
         line: "#1E1E1E13",
+        title: "#FFFFFFBF",
         grays: "#1E1E1E",
+        oranges: "#EE7505",
+        button_primary: "#26F631",
+        button_secondary: "#FF4848",
       },
       keyframes: {
         fadeIn: {

@@ -1,5 +1,11 @@
+import HomePage from "./home/page";
+import LandingPage from "./landing/page";
+
 export default function Home() {
   return (
-    <main className="gaep-6 mx-auto flex max-w-[1440px] flex-col px-20 pb-20"></main>
+    <main className="flex flex-col pb-20 ">
+      <LandingPage />
+      {/* <HomePage /> */}
+    </main>
   );
 }

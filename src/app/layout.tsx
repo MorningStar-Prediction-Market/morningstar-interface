@@ -4,6 +4,7 @@ import AppProvider from "@/services/provider/AppProvider";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import localFont from "next/font/local";
+import Footer from "./_components/Footer/Footer";
 
 export const metadata: Metadata = {
   title: "Morning star",
@@ -24,6 +25,24 @@ const ProductFont = localFont({
     },
   ],
 });
+export const BaskervilleFont = localFont({
+  src: [
+    {
+      path: "../assets/font/Baskerville SemiBold.ttf",
+      weight: "600",
+      style: "normal",
+    },
+  ],
+});
+export const DeargodFont = localFont({
+  src: [
+    {
+      path: "../assets/font/Deargod.otf",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+});
 
 export default function RootLayout({
   children,
@@ -36,6 +55,7 @@ export default function RootLayout({
         <body className={ProductFont.className}>
           <ToastContainer />
           {children}
+          <Footer />
         </body>
       </AppProvider>
     </html>
