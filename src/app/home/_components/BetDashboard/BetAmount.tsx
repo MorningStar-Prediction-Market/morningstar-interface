@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React, { useState } from "react";
 import { FaTimes } from "react-icons/fa";
 
@@ -20,7 +21,7 @@ const BetAmount = ({
     >
       <div className="flex justify-between items-center mb-4">
         <div className="flex items-center">
-          <img
+          <Image
             src="https://via.placeholder.com/40"
             alt="Donald Trump"
             className="w-10 h-10 rounded-full mr-2"

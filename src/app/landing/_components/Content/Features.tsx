@@ -5,7 +5,7 @@ import Infinity from "@/assets/images/infinity.png";
 import Eye from "@/assets/images/eye.png";
 import TechLayer from "@/assets/images/tech_layer.png";
 import Compass from "@/assets/images/compass.png";
-import { DeargodFont } from "@/app/layout";
+import { DeargodFont } from "@/assets/font";
 
 const Features = () => {
   return (
@@ -37,8 +37,9 @@ const Features = () => {
             <p className="lg:text-base sm:text-sm text-[10px]  whitespace-pre-line text-primary/75 font-semibold relative ">
               Data from prices to other events are constantly updated from major
               exchanges such as Binance, Bybit, OKX,.. and many other financial
-              platforms. It's all verified on the blockchain in a transparent
-              way.
+              platforms. It&aposs; all verified on the blockchain in a
+              transparent platforms. Its all verified on the blockchain in a
+              transparent way.
             </p>
           </div>
           <div className="mt-12">

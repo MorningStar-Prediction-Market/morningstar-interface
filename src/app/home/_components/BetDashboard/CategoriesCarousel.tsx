@@ -7,7 +7,7 @@ type Category = {
 };
 
 const CategoriesCarousel = ({ categories }: { categories: string[] }) => {
-  const scrollRef = useRef(null);
+  const scrollRef = useRef<any>(null);
   const [selectedCategory, setSelectedCategory] = useState<string>("Top");
   const [isAtStart, setIsAtStart] = useState(true);
   const [isAtEnd, setIsAtEnd] = useState(false);

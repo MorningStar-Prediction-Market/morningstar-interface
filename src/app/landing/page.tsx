@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Header from "./_components/Header/Header";
-import { BaskervilleFont } from "../layout";
 import Background from "@/assets/images/background.png";
 import Quote from "@/assets/images/quote.png";
 import localFont from "next/font/local";
@@ -8,6 +7,7 @@ import Technology from "./_components/Content/Technology";
 import WhyUs from "./_components/Content/WhyUs";
 import Features from "./_components/Content/Features";
 import Applications from "./_components/Content/Applications";
+import { BaskervilleFont } from "@/assets/font";
 
 export default function LandingPage() {
   return (

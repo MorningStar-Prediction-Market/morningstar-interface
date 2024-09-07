@@ -4,8 +4,7 @@ import TechnologyImage from "@/assets/images/technology.png";
 import TechLayer from "@/assets/images/tech_layer.png";
 import Triangle from "@/assets/images/triangle.png";
 import Target from "@/assets/images/target.png";
-
-import { DeargodFont } from "@/app/layout";
+import { DeargodFont } from "@/assets/font";
 
 const Technology = () => {
   return (
@@ -35,7 +34,7 @@ const Technology = () => {
             Built On Starknet
           </div>
           <h2 className="lg:text-base sm:text-sm text-[10px] text-center whitespace-pre-line text-primary font-bold relative z-10 drop-shadow-[0_0_10px_rgba(234,179,8,0.5)]">
-            MorningStar is built using StarkNet's decentralized zk-STARK
+            MorningStar is built using StarkNet&apos;s decentralized zk-STARK
             technology, which helps dApps achieve unlimited scale for their
             computations, while leveraging the security of Ethereum.
           </h2>

@@ -5,7 +5,7 @@ import Infinity from "@/assets/images/infinity.png";
 import Eye from "@/assets/images/eye.png";
 import TechLayer from "@/assets/images/tech_layer.png";
 import Compass from "@/assets/images/compass.png";
-import { DeargodFont } from "@/app/layout";
+import { DeargodFont } from "@/assets/font";
 
 const WhyUs = () => {
   return (

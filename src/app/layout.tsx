@@ -25,24 +25,6 @@ const ProductFont = localFont({
     },
   ],
 });
-export const BaskervilleFont = localFont({
-  src: [
-    {
-      path: "../assets/font/Baskerville SemiBold.ttf",
-      weight: "600",
-      style: "normal",
-    },
-  ],
-});
-export const DeargodFont = localFont({
-  src: [
-    {
-      path: "../assets/font/Deargod.otf",
-      weight: "400",
-      style: "normal",
-    },
-  ],
-});
 
 export default function RootLayout({
   children,
