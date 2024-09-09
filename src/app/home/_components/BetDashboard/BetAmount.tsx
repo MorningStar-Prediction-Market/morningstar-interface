@@ -15,17 +15,17 @@ const BetAmount = ({
 
   return (
     <div
-      className={`p-4 h-full rounded-lg bg-gray-800 absolute shadow-lg text-white  inset-x-0 bottom-0 z-50 transition-transform duration-300 ease-in-out transform ${
+      className={`p-4 h-full rounded-lg bg-gray-800 absolute shadow-lg text-white  inset-x-0 bottom-0 z-3 transition-transform duration-300 ease-in-out transform ${
         isOpen ? "translate-y-0" : "translate-y-full"
       }`}
     >
       <div className="flex justify-between items-center mb-4">
         <div className="flex items-center">
-          <Image
+          {/* <Image
             src="https://via.placeholder.com/40"
             alt="Donald Trump"
             className="w-10 h-10 rounded-full mr-2"
-          />
+          /> */}
           <span className="font-bold">Donald Trump</span>
         </div>
         <button className="text-gray-300 hover:text-gray-100" onClick={onClose}>

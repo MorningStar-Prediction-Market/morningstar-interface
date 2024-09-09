@@ -6,7 +6,7 @@ import { IoLogoDiscord } from "react-icons/io5";
 
 const Footer = () => {
   return (
-    <div className="w-full h-[250px] bg-dark_brown/50 pt-8 pb-[39px]">
+    <div className="w-full h-[250px] bg-dark_brown/50 pt-8 pb-[39px] backdrop-blur-2xl">
       <div className="flex flex-col items-center flex-1">
         <Image
           src={Logo}
@@ -15,12 +15,12 @@ const Footer = () => {
         />
         <Image src={MorningStar} alt="MorningStar" className="md:w-36 md:h-6" />
         <div className="flex items-center gap-4 mt-7">
-          <div className="border border-white/50 rounded p-2">
+          <button className="border border-white/50 rounded w-8 h-8 flex items-center justify-center hover:bg-white/20">
             <BsTwitterX className="text-white/50 w-5 h-5s" />
-          </div>
-          <div className="border border-white/50 rounded p-2">
+          </button>
+          <button className="border border-white/50 rounded  w-8 h-8 flex items-center justify-center hover:bg-white/20">
             <IoLogoDiscord className="text-white/50 w-5 h-5" />
-          </div>
+          </button>
         </div>
       </div>
     </div>

@@ -34,7 +34,10 @@ const BetCard2 = ({ card }: { card: BetCardV2Dto }) => {
 
       <div>
         <div className="flex gap-2 mt-8 mb-2">
-          <button className="bg-button_primary/15 flex-1  text-button_primary text-sm py-1 px-9 hover:bg-button_primary/70 hover:text-white">
+          <button
+            className="bg-button_primary/15 flex-1  text-button_primary text-sm py-1 px-9 hover:bg-button_primary/70 hover:text-white"
+            onClick={() => setIsOpenBetAmount(true)}
+          >
             Bet now
           </button>
           <button className="bg-button_secondary/15 flex-1 text-button_secondary text-sm py-1 px-9 hover:bg-button_secondary/70 hover:text-white ">
@@ -48,7 +51,7 @@ const BetCard2 = ({ card }: { card: BetCardV2Dto }) => {
               <span>{card.timeLeft}</span>
             </div>
             <div className="flex items-center space-x-1">
-              <Image src={BetIcon} alt="bet amount" className="w-3 h-3" />
+              {/* <Image src={BetIcon} alt="bet amount" className="w-3 h-3" /> */}
               <span>{card.votes}</span>
             </div>
           </div>

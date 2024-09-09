@@ -9,6 +9,7 @@ export const BaskervilleFont = localFont({
     },
   ],
 });
+
 export const DeargodFont = localFont({
   src: [
     {

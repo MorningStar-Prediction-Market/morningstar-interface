@@ -61,9 +61,7 @@ const Card = ({
       <Image
         src={VoteImage}
         alt={title}
-        width={100}
-        height={100}
-        className="object-cove"
+        className="object-cove w-[100px] h-[100px]"
       />
     </div>
   );

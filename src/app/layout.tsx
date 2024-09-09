@@ -37,7 +37,6 @@ export default function RootLayout({
         <body className={ProductFont.className}>
           <ToastContainer />
           {children}
-          <Footer />
         </body>
       </AppProvider>
     </html>
